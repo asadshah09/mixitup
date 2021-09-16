@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- plugins -->
+    
+
+    <!-- css Links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <title>MixItUp</title>
+    
+</head>
+<body>
+<div class="mixbtns">
+    <a href="#" data-filter="all">ALL</a>
+    <a href="#" data-filter=".category-a">Red</a>
+    <a href="#" data-filter=".category-b">Blue</a>
+    <a href="#" data-filter=".category-c">Green</a>
+</div>
+
+<div class="container">
+    <div class="mix category-a"></div>
+    <div class="mix category-b"></div>
+    <div class="mix category-c"></div>
+    <div class="mix category-a category-c"></div>
+    <div class="mix category-b"></div>
+    <div class="mix category-c category-b"></div>
+    <div class="mix category-a category-b"></div>
+    <div class="mix category-b"></div>
+    <div class="mix category-c"></div>
+    
+</div>
+
+<!-- js Links -->
+<script src="js/jquery.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+    var config = document.querySelector('.container');
+    var mixer = mixitup(config);
+</script>
+
+</body>
+</html>

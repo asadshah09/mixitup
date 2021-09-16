@@ -1,0 +1,32 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+.mix{
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 32.5%;
+    height: 100px;
+    background-color: #222;
+    float: left;
+}
+.mixbtns{
+    margin: 50px 0;
+    text-align: center;
+}
+.mixbtns a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #222;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.category-a{
+}
+.category-b{
+    background: #3498db;
+}
+.category-c{
+    background: red;
+}
